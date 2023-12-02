@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">home</string>
+    <string name="hotel">Hotel</string>
+    <string name="grate">grate</string>
+    <string name="Grate">Grate</string>
+    <string name="превосходно">Превосходно</string>
+    <string name="превосходно1">Превосходно</string>
+    <string name="превосходно11">Превосходно</string>
+    <string name="steigenberger_makadi">Steigenberger Makadi</string>
+    <string name="_134_673">От 134 673р</string>
+    <string name="madinat_makadi_safia_road_makadi_bay">Madinat Makadi, Safia Road, Makadi bay Египет</string>
+    <string name="за">за тур с перелетом</string>
+    <string name="отель">Отель</string>
+    <string name="about">Об отеле</string>
+    <string name="_3">3-я линия</string>
+    <string name="vip_18">Отель VIP-класса с собственными гольф полями. Высокий уровень сервиса. Рекомендуем для респектабельного отдыха. Отель принимает гостей от 18 лет!</string>
+</resources>
