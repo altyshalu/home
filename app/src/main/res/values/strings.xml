@@ -14,4 +14,13 @@
     <string name="about">Об отеле</string>
     <string name="_3">3-я линия</string>
     <string name="vip_18">Отель VIP-класса с собственными гольф полями. Высокий уровень сервиса. Рекомендуем для респектабельного отдыха. Отель принимает гостей от 18 лет!</string>
+    <string name="wi_fi">Платный wi-fi в фойе</string>
+    <string name="_1">1км до аэропорта</string>
+    <string name="fkl">1км до пляжа</string>
+    <string name="выбрать">К выбору отеля</string>
+    <string name="stg">Steigenberg Makadi</string>
+    <string name="steigenberger_makadi2">Steigenberger Makadi</string>
+    <string name="бассеуй">Стандартный с видом на бассейн или сад</string>
+    <string name="цук">Все включено</string>
+    <string name="клнд">Кондиционер</string>
 </resources>

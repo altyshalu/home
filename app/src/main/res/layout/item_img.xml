@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="215dp"
         android:layout_height="31dp"
-        android:text="Платный wi-fi в фойе"
+        android:text="@string/wi_fi"
         android:textColor="#8F8A8A"
         android:textSize="20sp"
         android:textStyle="normal"
@@ -51,7 +51,7 @@
     <TextView
         android:layout_width="177dp"
         android:layout_height="35dp"
-        android:text="1км до аэропорта "
+        android:text="@string/_1"
         android:textColor="#8F8A8A"
         android:textSize="20sp"
         android:textStyle="normal"
@@ -63,18 +63,18 @@
         app:layout_constraintVertical_bias="0.192" />
 
     <TextView
-        android:layout_width="115dp"
-        android:layout_height="24dp"
-        android:text="1км до пляжа"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:text="@string/fkl"
         android:textColor="#8F8A8A"
         android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <TextView
         android:id="@+id/textView3"
@@ -83,7 +83,7 @@
         android:text="@string/vip_18"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -92,6 +92,7 @@
         app:layout_constraintVertical_bias="0.328" />
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="380dp"
         android:layout_height="240dp"
         android:layout_margin="20dp"
@@ -105,29 +106,60 @@
         <ImageView
             android:layout_width="280dp"
             android:layout_height="65dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
             android:background="@drawable/comfortable" />
 
         <ImageView
             android:layout_width="280dp"
             android:layout_height="65dp"
+            android:layout_marginStart="7dp"
 
-            android:layout_marginTop="80sp"
+            android:layout_marginTop="85sp"
             android:background="@drawable/all" />
 
         <ImageView
             android:layout_width="280dp"
             android:layout_height="65dp"
             android:layout_marginTop="160dp"
-            android:background="@drawable/group2"/>
+            android:layout_marginStart="7dp"
+            android:background="@drawable/group2" />
 
         <ImageView
             android:layout_width="52dp"
             android:layout_height="55dp"
-            android:layout_marginTop="200"
-            android:background="@drawable/str"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/str" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/str" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/str" />
 
 
     </FrameLayout>
+
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/выбрать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
